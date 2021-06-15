@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/postimage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="@dimen/dp_10"
+        android:src="@drawable/ic_website___female_user_512"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="@dimen/dp_10"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/etTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="220dp"
+        android:padding="@dimen/dp_10"
+        android:text="Varsha"
+          android:textColor="@color/black"
+        android:textSize="@dimen/sp_18"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnOne"
+        android:text="@string/friends"
+        android:textAllCaps="false"
+        android:drawableRight="@drawable/ic_image_drop"
+        android:drawableLeft="@drawable/ic_image_person"
+        android:background="@drawable/round_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginStart="@dimen/dp_70"
+        android:layout_below="@+id/etTextView" />
+
+    <Button
+        android:layout_toEndOf="@+id/btnOne"
+        android:id="@+id/btnTwo"
+        android:text="@string/albums"
+        android:textAllCaps="false"
+        android:padding="@dimen/dp_10"
+        android:background="@drawable/round_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_below="@+id/etTextView" />
+
+
+</RelativeLayout>

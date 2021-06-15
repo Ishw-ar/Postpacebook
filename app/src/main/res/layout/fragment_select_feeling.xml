@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:layout_height="match_parent"
+    tools:context=".views.AddPost.SelectFeelingFragment">
+
+    <SearchView
+
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </SearchView>
+
+    <ListView
+
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+    </ListView>
+
+    <Button
+        android:textSize="@dimen/sp_20"
+        android:textColor="@color/white"
+        android:background="@color/blue"
+        android:textAllCaps="false"
+        android:text="Close"
+        android:layout_width="match_parent"
+        android:id="@+id/select_btn"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

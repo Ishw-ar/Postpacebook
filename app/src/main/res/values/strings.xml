@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Pacebook</string>
+    <string name="create_account">Create New Pacebook Account</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="email_text">Email</string>
+    <string name="enter_name">Enter Full Name</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="register">Register</string>
+    <string name="reset_password">RESET Password</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="albums">Add a felling</string>
+    <string name="friends">Friends</string>
+
+
+
+    <string-array name="feeling">
+        <item>happy</item>
+        <item>blessed</item>
+        <item>loved</item>
+        <item>sad</item>
+        <item>crazy</item>
+        <item>thankful</item>
+        <item>excited</item>
+        <item>positive</item>
+        <item>cool</item>
+        <item>proud</item>
+        <item>fantastic</item>
+        <item>relaxed</item>
+        <item>lovely</item>
+        <item>missing</item>
+        <item>awesome</item>
+        <item>fabulous</item>
+        <item>emotions</item>
+        <item>silly</item>
+        <item>motivated</item>
+        <item>grateful</item>
+        <item>sick</item>
+        <item>concern</item>
+        <item>joyful</item>
+        <item>entertain</item>
+        <item>special</item>
+        <item>heartbroken</item>
+        <item>angry</item>
+        <item>tired</item>
+        <item>good</item>
+        <item>refreshed</item>
+        <item>great</item>
+        <item>amazing</item>
+        <item>fresh</item>
+        <item>wonderful</item>
+        <item>strong</item>
+        <item>worried</item>
+        <item>determined</item>
+        <item>pained</item>
+    </string-array>
+</resources>

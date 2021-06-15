@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626998942386",
+    "project_id": "pacebook-4f69f",
+    "storage_bucket": "pacebook-4f69f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626998942386:android:66ca7d2766df3f05d9c7ab",
+        "android_client_info": {
+          "package_name": "com.ishwar_arcore.pacebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626998942386-v82oivtt7v1qrmsv0argteq98u7k6uel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2NNuoiiVqlzKJ7WF6ellNY1JgXUHci4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626998942386-v82oivtt7v1qrmsv0argteq98u7k6uel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
